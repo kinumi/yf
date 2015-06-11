@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Yf::VERSION
   spec.authors       = ["kinumi"]
   spec.email         = ["kunimi.ikeda@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Yahoo finance (JP) command-line client}
+  spec.description   = %q{Yahoo finance (JP) command-line client}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+
+  spec.add_dependency "thor"
+  spec.add_dependency "nokogiri"
 end
