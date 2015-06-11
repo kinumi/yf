@@ -33,7 +33,7 @@ module Yf
         change = set_color(change.rjust(8), color)
         #----
         if options[:full]
-          printf("%-7s %s %s %s (%s)\n", code, name.mb_ljust(50), price, change, time)
+          printf("%-7s %s %s %s (%s)\n", code, name.mb_ljust(45), price, change, time)
         else
           printf("%-7s %s %s (%s)\n", code, price, change, time)
         end
